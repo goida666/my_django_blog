@@ -1,0 +1,15 @@
+<section class="my-carousel" style="height: 40px;">
+    <div id="carouselExampleCaptions" class="carousel slide" style="height: 40px;" data-ride="carousel">
+      <div class="carousel-inner" style="height: 40px;">
+          <div class="carousel-item active" style="height: 40px; background-color: #343a40!important">
+              <div class="carousel-caption d-none d-md-block" style="height: 40px;">
+                  <form action="{% url 'search_results' %}" method="get" class="my-2 my-lg-0">
+                      <input name="q" type="text" class="form-control" placeholder="Поиск" aria-label="Поиск">
+                      <button class="btn btn-outline-success mt-3" type="submit">Поиск</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
